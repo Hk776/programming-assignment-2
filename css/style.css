@@ -1,0 +1,231 @@
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+small{
+    font-family: 'Roboto', sans-serif;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.section-heading h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    color: #3d4061;
+    margin-bottom: 40px;
+    
+}
+.line{
+    display: inline-block;
+    width: 45px;
+    height: 1px !important;
+    background: #a8be4c;
+    margin: 0 10px;
+}
+.btn-default{
+    padding: 15px 35px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient( 190deg,  #a3b94b , #89a31e) ;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-default::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; 
+    content: "\f07a";
+    padding-right: 12px;
+}
+.btn-default:hover{
+    background-image: linear-gradient( 190deg, #45bdbd, #1f83a1);
+    color: #fff;
+}
+header{
+    padding-top: 10px ;
+    padding-bottom: 30px ;
+}
+.navbar-brand{
+    width: 300px;
+    height: auto;
+    margin-left: 25px;
+}
+.navbar-nav .nav-item{
+    padding: 0 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out; 
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #8faa21;
+    border-bottom: 1px solid #86a11b;    
+}
+.banner-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    line-height: 65px;
+    color: #393c5e;
+}
+.banner-title span{
+    color: #fdc255e8;
+}
+.background-top-sec{
+    background-color: rgba(250, 250, 210, 0.781);
+    border-radius: 30px;
+}
+.jacket-item{
+    padding: 20px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.jacket-item img{
+    width: 290px;
+    height: 293px;
+    background: #F1F1F1;
+    padding: 20px;
+    border-radius: 15px;
+}
+.jacket-item .card-title{
+    font-size: 24px;
+    color: #3f4266;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+.jacket-item .card-text{
+    font-size: 15px;
+    line-height: 26px;
+}
+.card-bottom{
+    padding: 0 20px;
+}
+.card-bottom .item-price{
+    color: #f8be53;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.jacket-item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 8px 75px -10px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 8px 75px -10px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 75px -10px rgba(0,0,0,0.45);
+
+}
+ .feature-list li{
+     margin-bottom: 45px;
+ }
+.feature-list li .list-icon{
+    width: 70px;
+    height: 70px;
+}
+.feature-list li .list-content{
+    margin-left: 30px;
+    text-align: justify;
+}
+.feature-list li .list-content h3{
+    font-family: 'Roboto', sans-serif;
+}
+.feature-list li .list-content p{
+    margin: 0;
+}
+
+#feedback{
+    padding-bottom: 0;
+}
+.client-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-bottom: 25px;
+}
+.feebback-content h5{
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators li{
+    background-color: #a0b840 !important;
+    height: 3px;
+    width: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) { 
+
+}
+@media (max-width: 768px) { 
+    .jacket-item{
+        margin-bottom: 35px;
+    }
+    .direction-reverse-sm{                  
+        flex-direction: column-reverse!important;
+    }
+    .feature-right{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .section-padding{
+        padding: 45px 0;
+    }
+    .section-heading h1{
+        text-align: center;
+        
+    }
+
+    .navbar-brand {
+        width: 150px;
+        height: auto;
+        margin-left: 0;
+    }
+    .banner-title {
+        font-size: 55px;
+        line-height: 55px;
+
+    }
+    .banner-right{
+        padding-top: 30px;
+    }
+    .jacket-item{
+        padding: 15px 5px;
+    }
+    .feature-list{
+        padding: 0;
+    }
+    .feature-list li{
+        flex-direction: column;
+    }
+    .feature-list li .list-icon {
+        margin-bottom: 20px;
+    }
+    .feature-list li .list-content{
+        margin-left: 0;
+        text-align: center;
+    }
+    .feebback-content h5{
+        line-height: 26px;
+    }
+    .direction-reverse-sm{                  
+        flex-direction: column-reverse!important;
+    }
+    .feature-right{
+        margin-bottom: 30px;
+    }
+ }
